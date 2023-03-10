@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#000000"
+    tools:context=".Splash_Screen">
+
+
+    <ImageView
+        android:id="@+id/im"
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="304dp"
+        android:background="@color/white"
+        android:padding="1sp"
+        android:src="@drawable/notes_icon" />
+
+
+    <TextView
+        android:id="@+id/n"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/im"
+        android:layout_marginBottom="-68dp"
+        android:text="Notes App"
+        android:layout_centerInParent="true"
+
+        android:textColor="@color/ic_launcher_background"
+
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:padding="2sp"
+        android:textColor="@color/ic_launcher_background"
+        android:text="Life is too fast dont forget anything \n just Note it !!"
+       android:layout_centerInParent="true"
+        android:layout_alignBottom="@id/n"
+        android:layout_marginBottom="-38dp"
+        android:gravity="center"
+
+        android:textSize="15sp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:padding="2sp"
+        android:text="Developed by \n Aditya"
+        android:textColor="@color/ic_launcher_background"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
+
